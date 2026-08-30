@@ -1,0 +1,2 @@
+model,implementation,configuration,selection_metric,tau,feature_dimension_before_filter,feature_dimension_after_filter,variance_filter_threshold,training_samples
+CoxPH,lifelines.CoxPHFitter,penalizer=0.1|l1_ratio=0,vehicle-level tuning PR-AUC,48.0,719,718,1e-10,23583

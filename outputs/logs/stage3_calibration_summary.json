@@ -1,0 +1,80 @@
+{
+  "stage": "3",
+  "model_retrained": false,
+  "frozen_checkpoint": "C:\\maintenance-aware-pdm\\outputs\\checkpoints\\proposed_gru_best_vehicle_tuned.pt",
+  "calibration_landmarks": {
+    "n": 1849,
+    "n_positive": 150,
+    "positive_prevalence": 0.08112493239588967
+  },
+  "validation": {
+    "n": 5046,
+    "n_positive": 136,
+    "positive_prevalence": 0.026952041220768927
+  },
+  "analytical_correction": {
+    "omega_0": 0.5437128233503943,
+    "omega_1": 6.219145569620253,
+    "logit_shift": -2.4369665988534397
+  },
+  "platt": {
+    "intercept": -2.3562914615644126,
+    "slope": 0.4917610566954477,
+    "C": 1000000.0,
+    "fit_population": "calibration_vehicle_landmarks"
+  },
+  "validation_metrics": [
+    {
+      "method": "raw_weighted_sigmoid",
+      "n": 5046,
+      "n_positive": 136,
+      "n_negative": 4910,
+      "positive_prevalence": 0.026952041220768927,
+      "auroc": 0.635554690307895,
+      "pr_auc": 0.0430844480184696,
+      "enrichment": 1.5985597404499823,
+      "brier_score": 0.43215811183370073,
+      "log_loss": 1.2104344112336103,
+      "ece_equal_width": 0.5678580692352541,
+      "diagnostic_calibration_intercept": -3.851990590214823,
+      "diagnostic_calibration_slope": 0.317473196354279,
+      "mean_probability": 0.594810110456023,
+      "median_probability": 0.6876255869865417
+    },
+    {
+      "method": "analytical_wbce_correction",
+      "n": 5046,
+      "n_positive": 136,
+      "n_negative": 4910,
+      "positive_prevalence": 0.026952041220768927,
+      "auroc": 0.635554690307895,
+      "pr_auc": 0.0430844480184696,
+      "enrichment": 1.5985597404499823,
+      "brier_score": 0.09066637404846298,
+      "log_loss": 0.30559861866220245,
+      "ece_equal_width": 0.18304812833407907,
+      "diagnostic_calibration_intercept": -3.0769280796458793,
+      "diagnostic_calibration_slope": 0.31594352239409584,
+      "mean_probability": 0.210000169554848,
+      "median_probability": 0.16138970170978276
+    },
+    {
+      "method": "heldout_platt",
+      "n": 5046,
+      "n_positive": 136,
+      "n_negative": 4910,
+      "positive_prevalence": 0.026952041220768927,
+      "auroc": 0.635554690307895,
+      "pr_auc": 0.0430844480184696,
+      "enrichment": 1.5985597404499823,
+      "brier_score": 0.04103963600464946,
+      "log_loss": 0.19000428571226533,
+      "ece_equal_width": 0.10244626548327915,
+      "diagnostic_calibration_intercept": -2.3347881367466345,
+      "diagnostic_calibration_slope": 0.6429682268473308,
+      "mean_probability": 0.1293983067040481,
+      "median_probability": 0.12257470122704275
+    }
+  ],
+  "important_note": "Validation labels were used only for evaluation diagnostics; neither the GRU nor either calibration mapping was fit or selected using public validation labels."
+}

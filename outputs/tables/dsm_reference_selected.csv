@@ -1,0 +1,2 @@
+model,implementation,configuration,selection_metric,tau,feature_dimension,training_samples
+DSM,auton_survival.models.dsm.DeepSurvivalMachines,"k=3|layers=64,32|iters=100|lr=0.001|batch_size=128",vehicle-level tuning PR-AUC,48.0,719,23583

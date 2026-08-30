@@ -1,0 +1,3 @@
+model,implementation,configuration,status,tuning_auroc,tuning_pr_auc,tuning_enrichment
+RSF,sksurv.ensemble.RandomSurvivalForest,max_features=sqrt|min_samples_leaf=10|min_samples_split=20|n_estimators=300,ok,0.6902577912423911,0.1583523767607329,1.8464094126872388
+RSF,sksurv.ensemble.RandomSurvivalForest,max_features=sqrt|min_samples_leaf=30|min_samples_split=20|n_estimators=300,ok,0.6856012791382647,0.15227583597499642,1.7755561528064943

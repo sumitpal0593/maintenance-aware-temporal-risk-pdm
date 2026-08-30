@@ -1,0 +1,14 @@
+metric,value
+n_landmarks_for_censoring_model,2978.0
+n_censoring_events,2676.0
+n_observed_events,302.0
+censor_survival_before_tau,0.6097053934838749
+raw_weight_min,1.0
+raw_weight_median,1.6401363850268242
+raw_weight_mean,1.6094654174667276
+raw_weight_max,1.6401363850268242
+normalized_weight_min,0.6213243162279211
+normalized_weight_max,1.0190566179473257
+effective_sample_size,1839.5128506458543
+unweighted_positive_prevalence,0.08112493239588967
+ipcw_weighted_positive_prevalence,0.06361428129123482

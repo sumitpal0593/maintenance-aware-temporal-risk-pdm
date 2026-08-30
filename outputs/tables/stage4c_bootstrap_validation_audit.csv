@@ -1,0 +1,2 @@
+validation_vehicles,positive_vehicles,negative_vehicles,prevalence,n_resamples,confidence_level,seed,stratified_by_binary_label,paired_across_models
+5046,136,4910,0.026952041220768927,5000,0.95,42,True,True

@@ -1,0 +1,18 @@
+# Decision-theoretic scenarios currently described in the manuscript.
+# These values can be revised after the calibrated-risk analysis.
+
+scenarios:
+  conservative:
+    C_A: 70
+    C_F: 210
+    rho: 0.20
+
+  balanced:
+    C_A: 85
+    C_F: 475
+    rho: 0.20
+
+  high_consequence:
+    C_A: 145
+    C_F: 1200
+    rho: 0.20

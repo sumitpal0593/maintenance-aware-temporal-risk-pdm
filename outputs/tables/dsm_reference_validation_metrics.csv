@@ -1,0 +1,2 @@
+model,implementation,configuration,n,n_positive,positive_prevalence,auroc,pr_auc,enrichment
+DSM,auton_survival.models.dsm.DeepSurvivalMachines,"k=3|layers=64,32|iters=100|lr=0.001|batch_size=128",5046,136,0.026952041220768927,0.6265589433329339,0.048596350238970534,1.8030675243076861

@@ -1,0 +1,7 @@
+method,parameter,value
+analytical_wbce_correction,omega_0,0.5437128233503943
+analytical_wbce_correction,omega_1,6.219145569620253
+analytical_wbce_correction,logit_shift_log_omega0_over_omega1,-2.4369665988534397
+heldout_platt,intercept,-2.3562914615644126
+heldout_platt,slope,0.4917610566954477
+heldout_platt,C,1000000.0

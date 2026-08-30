@@ -1,0 +1,32 @@
+parameter,value
+experiment_name,paper_revision
+stage,2E.1
+seed,42
+tau,48
+dynamic_dimension_p,105
+static_encoding,one_hot
+encoded_static_dimension_q_e,89
+gru_hidden_dimension_d_T,128
+gru_layers,1
+static_hidden,128
+fusion_hidden,128
+dropout,0.1
+optimizer,adamw
+learning_rate,0.0003
+weight_decay_lambda_reg,0.0001
+batch_size,256
+maximum_epochs,30
+early_stopping_patience,5
+best_epoch,12
+gradient_clip_norm,2.0
+omega_0,0.5437128233503943
+omega_1,6.219145569620253
+model_train_N0,21687
+model_train_N1,1896
+activation,ReLU
+output_activation,sigmoid
+output_dimension,1
+training_sampling,multiple deterministic prefixes per model-training vehicle
+model_selection_sampling,"one seed-42 random readout landmark per tuning vehicle, selected before label inspection"
+model_selection_metric,vehicle-level tuning PR-AUC
+calibration_applied,False

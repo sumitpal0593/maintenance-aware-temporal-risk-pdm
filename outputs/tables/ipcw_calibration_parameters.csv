@@ -1,0 +1,7 @@
+method,parameter,value
+ipcw_heldout_platt,intercept,-2.6055318347732443
+ipcw_heldout_platt,slope,0.4562841678022873
+ipcw_heldout_platt,C,1000000.0
+ipcw,G_tau_minus,0.6097053934838749
+ipcw,effective_sample_size,1839.5128506458543
+ipcw,weighted_calibration_prevalence,0.06361428129123482

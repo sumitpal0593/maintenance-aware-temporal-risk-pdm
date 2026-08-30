@@ -1,0 +1,4 @@
+split,vehicles,event_vehicles,event_rate
+calibration,3533,341,0.09651853948485706
+model_train,16484,1590,0.0964571705896627
+tuning,3533,341,0.09651853948485706

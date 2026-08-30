@@ -1,0 +1,5 @@
+model,implementation,configuration,status,tuning_auroc,tuning_pr_auc,tuning_enrichment
+CoxPH,lifelines.CoxPHFitter,penalizer=0.001|l1_ratio=0,ok,0.6788649651563057,0.15688733750929582,1.8293268635070832
+CoxPH,lifelines.CoxPHFitter,penalizer=0.01|l1_ratio=0,ok,0.6807003201852987,0.15781906457769487,1.8401909229190043
+CoxPH,lifelines.CoxPHFitter,penalizer=0.1|l1_ratio=0,ok,0.6813815655017371,0.15876461061489056,1.8512161133134952
+CoxPH,lifelines.CoxPHFitter,penalizer=1|l1_ratio=0,ok,0.654933217922362,0.14291894911028707,1.6664536288415173

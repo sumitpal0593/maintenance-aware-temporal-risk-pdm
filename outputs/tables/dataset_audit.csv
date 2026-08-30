@@ -1,0 +1,16 @@
+quantity,value
+prediction_horizon_tau,48.0
+train_tte_vehicles,23550.0
+train_event_vehicles,2272.0
+train_censored_vehicles,21278.0
+train_vehicle_event_rate,0.09647558386411889
+validation_vehicles,5046.0
+validation_binary_positive,136.0
+validation_binary_negative,4910.0
+validation_binary_positive_rate,0.026952041220768927
+operational_feature_dimension_p,105.0
+original_static_dimension_q,8.0
+encoded_static_dimension_q_e,89.0
+model_train_vehicles,16484.0
+tuning_vehicles,3533.0
+calibration_vehicles,3533.0

@@ -1,0 +1,4 @@
+population,n,positive_prevalence,role
+tuning_vehicle_landmarks,1784,0.085762331838565,model selection only
+calibration_vehicle_landmarks,1849,0.08112493239588967,Platt fitting only
+public_validation,5046,0.026952041220768927,final evaluation only

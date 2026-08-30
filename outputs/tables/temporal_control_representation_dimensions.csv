@@ -1,0 +1,7 @@
+representation,dimension,contents
+time_only,2,prefix_time_step + prefix_length
+static_only,89,training-fitted one-hot static specifications
+aggregate_dynamic,630,mean/std/min/max/final/trend for each of 105 dynamic variables
+gru_temporal,128,frozen h_i from the Stage 2E.1 GRU
+aggregate_dynamic_plus_static,719,aggregate dynamic summaries + static one-hot
+gru_temporal_plus_static,217,frozen GRU h_i + static one-hot

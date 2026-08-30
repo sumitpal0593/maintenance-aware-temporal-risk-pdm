@@ -1,0 +1,9 @@
+feature,n_training_categories,categories
+Spec_0,3,Cat0|Cat1|Cat2
+Spec_1,29,Cat0|Cat1|Cat10|Cat11|Cat12|Cat13|Cat14|Cat15|Cat16|Cat17|Cat18|Cat19|Cat2|Cat20|Cat21|Cat22|Cat23|Cat24|Cat25|Cat26|Cat27|Cat28|Cat3|Cat4|Cat5|Cat6|Cat7|Cat8|Cat9
+Spec_2,21,Cat0|Cat1|Cat10|Cat11|Cat12|Cat13|Cat14|Cat15|Cat16|Cat17|Cat18|Cat19|Cat2|Cat20|Cat3|Cat4|Cat5|Cat6|Cat7|Cat8|Cat9
+Spec_3,4,Cat0|Cat1|Cat2|Cat3
+Spec_4,2,Cat0|Cat1
+Spec_5,5,Cat0|Cat1|Cat2|Cat3|Cat4
+Spec_6,16,Cat0|Cat1|Cat10|Cat11|Cat12|Cat13|Cat15|Cat17|Cat2|Cat3|Cat4|Cat5|Cat6|Cat7|Cat8|Cat9
+Spec_7,9,Cat0|Cat1|Cat2|Cat3|Cat4|Cat5|Cat6|Cat7|Cat8

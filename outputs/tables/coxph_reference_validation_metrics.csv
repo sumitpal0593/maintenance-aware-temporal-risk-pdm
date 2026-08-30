@@ -1,0 +1,2 @@
+model,implementation,configuration,n,n_positive,positive_prevalence,auroc,pr_auc,enrichment
+CoxPH,lifelines.CoxPHFitter,penalizer=0.1|l1_ratio=0,5046,136,0.026952041220768927,0.6404082305019767,0.04030561538097126,1.4954568765616247

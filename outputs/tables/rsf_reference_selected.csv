@@ -1,0 +1,2 @@
+model,implementation,configuration,selection_metric,tau,feature_dimension,training_samples
+RSF,sksurv.ensemble.RandomSurvivalForest,max_features=sqrt|min_samples_leaf=10|min_samples_split=20|n_estimators=300,vehicle-level tuning PR-AUC,48.0,719,23583

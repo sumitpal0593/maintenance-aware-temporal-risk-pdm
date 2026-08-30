@@ -1,0 +1,7 @@
+model,selected_C,selection_metric,classifier,class_weight,solver,max_iter,seed
+time_only_logistic,1.0,vehicle-level tuning PR-AUC,L2 logistic regression,balanced,lbfgs,3000,42
+static_only_logistic,1.0,vehicle-level tuning PR-AUC,L2 logistic regression,balanced,lbfgs,3000,42
+aggregate_dynamic_logistic,1.0,vehicle-level tuning PR-AUC,L2 logistic regression,balanced,lbfgs,3000,42
+gru_temporal_logistic,0.01,vehicle-level tuning PR-AUC,L2 logistic regression,balanced,lbfgs,3000,42
+aggregate_dynamic_plus_static_logistic,0.1,vehicle-level tuning PR-AUC,L2 logistic regression,balanced,lbfgs,3000,42
+gru_temporal_plus_static_logistic,10.0,vehicle-level tuning PR-AUC,L2 logistic regression,balanced,lbfgs,3000,42

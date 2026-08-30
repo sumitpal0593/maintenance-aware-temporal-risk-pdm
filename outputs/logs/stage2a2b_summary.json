@@ -1,0 +1,12 @@
+{
+  "tau": 48,
+  "train_tte_vehicle_event_rate": 0.09647558386411889,
+  "validation_binary_positive_rate": 0.026952041220768927,
+  "training_horizon_positive_rate": 0.08039689606920239,
+  "omega_0": 0.5437128233503943,
+  "omega_1": 6.219145569620253,
+  "q_e": 89,
+  "operational_feature_dimension_p": 105,
+  "validation_vehicle_count": 5046,
+  "operational_preprocessor_fitted": true
+}

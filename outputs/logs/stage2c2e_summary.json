@@ -1,0 +1,15 @@
+{
+  "device": "cpu",
+  "best_epoch": 28,
+  "best_tuning_pr_auc": 0.37676108801243774,
+  "validation": {
+    "n": 5046,
+    "n_positive": 136,
+    "n_negative": 4910,
+    "positive_prevalence": 0.026952041220768927,
+    "auroc": 0.6268734275787707,
+    "pr_auc": 0.044441088975461826,
+    "enrichment": 1.6488951100748557
+  },
+  "calibration_status": "not yet applied; Stage 3 will fit Platt scaling using the held-out calibration vehicle split"
+}

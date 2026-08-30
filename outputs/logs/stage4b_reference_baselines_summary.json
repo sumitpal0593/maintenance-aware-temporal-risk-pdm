@@ -1,0 +1,108 @@
+{
+  "stage": "4B-reference",
+  "tau": 48.0,
+  "validation_used_for_model_selection": false,
+  "baseline_metrics": [
+    {
+      "model": "CoxPH",
+      "implementation": "lifelines.CoxPHFitter",
+      "configuration": "penalizer=0.1|l1_ratio=0",
+      "n": 5046,
+      "n_positive": 136,
+      "positive_prevalence": 0.0269520412207689,
+      "auroc": 0.6404082305019767,
+      "pr_auc": 0.0403056153809712,
+      "enrichment": 1.4954568765616247
+    },
+    {
+      "model": "RSF",
+      "implementation": "sksurv.ensemble.RandomSurvivalForest",
+      "configuration": "max_features=sqrt|min_samples_leaf=10|min_samples_split=20|n_estimators=300",
+      "n": 5046,
+      "n_positive": 136,
+      "positive_prevalence": 0.0269520412207689,
+      "auroc": 0.592606625134779,
+      "pr_auc": 0.0317924676390569,
+      "enrichment": 1.1795940566667733
+    },
+    {
+      "model": "Deep CoxPH",
+      "implementation": "pycox.models.CoxPH",
+      "configuration": "hidden=128,128|dropout=0.1|lr=0.0003|batch_size=1024|max_epochs=30|patience=5",
+      "n": 5046,
+      "n_positive": 136,
+      "positive_prevalence": 0.0269520412207689,
+      "auroc": 0.6173101114172757,
+      "pr_auc": 0.037833386823148,
+      "enrichment": 1.4037299258059182
+    },
+    {
+      "model": "DSM",
+      "implementation": "auton_survival.models.dsm.DeepSurvivalMachines",
+      "configuration": "k=3|layers=64,32|iters=100|lr=0.001|batch_size=128",
+      "n": 5046,
+      "n_positive": 136,
+      "positive_prevalence": 0.0269520412207689,
+      "auroc": 0.6265589433329339,
+      "pr_auc": 0.0485963502389705,
+      "enrichment": 1.803067524307686
+    },
+    {
+      "model": "Frozen proposed GRU",
+      "implementation": "Stage 2E.1 frozen temporal-risk model",
+      "configuration": "best epoch selected on vehicle-level tuning",
+      "n": 5046,
+      "n_positive": 136,
+      "positive_prevalence": 0.026952041220768927,
+      "auroc": 0.635554690307895,
+      "pr_auc": 0.0430844480184696,
+      "enrichment": 1.5985597404499823
+    }
+  ],
+  "comparisons": [
+    {
+      "baseline": "CoxPH",
+      "baseline_auroc": 0.6404082305019767,
+      "proposed_auroc": 0.635554690307895,
+      "auroc_difference_proposed_minus_baseline": -0.004853540194081685,
+      "relative_auroc_improvement_percent": -0.7578822324437168,
+      "baseline_pr_auc": 0.0403056153809712,
+      "proposed_pr_auc": 0.0430844480184696,
+      "pr_auc_difference_proposed_minus_baseline": 0.0027788326374983963,
+      "relative_pr_auc_improvement_percent": 6.894405683259507
+    },
+    {
+      "baseline": "RSF",
+      "baseline_auroc": 0.592606625134779,
+      "proposed_auroc": 0.635554690307895,
+      "auroc_difference_proposed_minus_baseline": 0.042948065173116,
+      "relative_auroc_improvement_percent": 7.247314382175214,
+      "baseline_pr_auc": 0.0317924676390569,
+      "proposed_pr_auc": 0.0430844480184696,
+      "pr_auc_difference_proposed_minus_baseline": 0.011291980379412696,
+      "relative_pr_auc_improvement_percent": 35.51778524275527
+    },
+    {
+      "baseline": "Deep CoxPH",
+      "baseline_auroc": 0.6173101114172757,
+      "proposed_auroc": 0.635554690307895,
+      "auroc_difference_proposed_minus_baseline": 0.018244578890619367,
+      "relative_auroc_improvement_percent": 2.9554965248717266,
+      "baseline_pr_auc": 0.037833386823148,
+      "proposed_pr_auc": 0.0430844480184696,
+      "pr_auc_difference_proposed_minus_baseline": 0.0052510611953216005,
+      "relative_pr_auc_improvement_percent": 13.879437280800852
+    },
+    {
+      "baseline": "DSM",
+      "baseline_auroc": 0.6265589433329339,
+      "proposed_auroc": 0.635554690307895,
+      "auroc_difference_proposed_minus_baseline": 0.008995746974961083,
+      "relative_auroc_improvement_percent": 1.435738340451877,
+      "baseline_pr_auc": 0.0485963502389705,
+      "proposed_pr_auc": 0.0430844480184696,
+      "pr_auc_difference_proposed_minus_baseline": -0.005511902220500901,
+      "relative_pr_auc_improvement_percent": -11.342214370824877
+    }
+  ]
+}

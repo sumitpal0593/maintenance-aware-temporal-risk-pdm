@@ -1,0 +1,4 @@
+split,n,observed_survival_events,survival_event_fraction,median_residual_time,horizon_positive_fraction
+model_train_prefix_samples,23583,3901.0,0.16541576559385998,107.0,0.08039689606920239
+vehicle_level_tuning_landmarks,1784,297.0,0.1664798206278027,94.0,0.08576233183856502
+public_validation,5046,,,,0.026952041220768927

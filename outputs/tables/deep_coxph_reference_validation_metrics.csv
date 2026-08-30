@@ -1,0 +1,2 @@
+model,implementation,configuration,n,n_positive,positive_prevalence,auroc,pr_auc,enrichment
+Deep CoxPH,pycox.models.CoxPH,"hidden=128,128|dropout=0.1|lr=0.0003|batch_size=1024|max_epochs=30|patience=5",5046,136,0.026952041220768927,0.6173101114172757,0.03783338682314801,1.4037299258059182

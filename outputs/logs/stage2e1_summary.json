@@ -1,0 +1,29 @@
+{
+  "stage": "2E.1",
+  "device": "cpu",
+  "best_epoch": 12,
+  "best_tuning_pr_auc": 0.169896678266097,
+  "tuning_landmarks": {
+    "candidate_vehicles": 3533.0,
+    "selected_landmarks": 2994.0,
+    "included_labelled_vehicles": 1784.0,
+    "positive_vehicles": 153.0,
+    "negative_vehicles": 1631.0,
+    "positive_prevalence": 0.08576233183856502,
+    "excluded_censored_before_horizon": 1181.0,
+    "excluded_no_forward_window": 29.0,
+    "excluded_short_history": 539.0,
+    "excluded_missing_sequence": 0.0,
+    "excluded_missing_tte": 0.0
+  },
+  "validation": {
+    "n": 5046,
+    "n_positive": 136,
+    "n_negative": 4910,
+    "positive_prevalence": 0.026952041220768927,
+    "auroc": 0.635554690307895,
+    "pr_auc": 0.0430844480184696,
+    "enrichment": 1.5985597404499823
+  },
+  "calibration_status": "not yet applied; the calibration split remains untouched"
+}
