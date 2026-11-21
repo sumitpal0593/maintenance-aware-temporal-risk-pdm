@@ -1,0 +1,16 @@
+method,scenario,C_A,C_F,rho,threshold,n_maintain,pct_maintain,n_original_maintain,n_maintain_to_no_maintain,n_no_maintain_to_maintain,pct_action_changed,n_observed_positives_among_selected_diagnostic_only,sum_model_based_net_benefit_of_selected,mean_model_based_net_benefit_per_vehicle,mean_model_based_net_benefit_among_selected
+ipcw_platt_original,conservative,70,210,0.2,0.416666666666667,0,0,0,0,0,0,0,0,0,0
+ipcw_platt_original,balanced,85,475,0.2,0.223684210526316,173,3.42845818470075,173,0,0,0,8,2038.86033367062,0.404054762915304,11.7853198478071
+ipcw_platt_original,high_consequence,145,1200,0.2,0.151041666666667,999,19.7978596908442,999,0,0,0,47,38839.1658371029,7.69702057810205,38.8780438809839
+uniform_20pct_risk_reduction,conservative,70,210,0.2,0.416666666666667,0,0,0,0,0,0,0,0,0,0
+uniform_20pct_risk_reduction,balanced,85,475,0.2,0.223684210526316,29,0.574712643678161,173,144,0,2.85374554102259,2,182.893840806627,0.0362453112973893,6.30668416574574
+uniform_20pct_risk_reduction,high_consequence,145,1200,0.2,0.151041666666667,414,8.20451843043995,999,585,0,11.5933412604043,23,11517.4530736432,2.28249169116988,27.8199349604909
+odds_shift_weighted_prevalence,conservative,70,210,0.2,0.416666666666667,0,0,0,0,0,0,0,0,0,0
+odds_shift_weighted_prevalence,balanced,85,475,0.2,0.223684210526316,0,0,173,173,0,3.42845818470075,0,0,0,0
+odds_shift_weighted_prevalence,high_consequence,145,1200,0.2,0.151041666666667,8,0.1585414189457,999,991,0,19.6393182718985,0,115.313275591394,0.0228524129194202,14.4141594489243
+odds_shift_unweighted_prevalence,conservative,70,210,0.2,0.416666666666667,0,0,0,0,0,0,0,0,0,0
+odds_shift_unweighted_prevalence,balanced,85,475,0.2,0.223684210526316,0,0,173,173,0,3.42845818470075,0,0,0,0
+odds_shift_unweighted_prevalence,high_consequence,145,1200,0.2,0.151041666666667,0,0,999,999,0,19.7978596908442,0,0,0,0
+proportional_mean_matching_stress,conservative,70,210,0.2,0.416666666666667,0,0,0,0,0,0,0,0,0,0
+proportional_mean_matching_stress,balanced,85,475,0.2,0.223684210526316,0,0,173,173,0,3.42845818470075,0,0,0,0
+proportional_mean_matching_stress,high_consequence,145,1200,0.2,0.151041666666667,0,0,999,999,0,19.7978596908442,0,0,0,0

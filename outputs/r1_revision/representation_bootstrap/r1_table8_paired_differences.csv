@@ -1,0 +1,13 @@
+comparison,model,reference,metric,delta_estimate,ci_lower,ci_upper,ci_excludes_zero,confidence_level,n_bootstrap,seed
+GRU temporal vs aggregate dynamics,gru_temporal_logistic,aggregate_dynamic_logistic,auroc,0.1262564394,0.0574122065,0.1958233871,True,0.9500000000,5000,42
+GRU temporal vs aggregate dynamics,gru_temporal_logistic,aggregate_dynamic_logistic,pr_auc,0.0160666365,0.0076134156,0.0299619429,True,0.9500000000,5000,42
+GRU temporal vs aggregate dynamics,gru_temporal_logistic,aggregate_dynamic_logistic,enrichment,0.5961194678,0.2824801107,1.1116762040,True,0.9500000000,5000,42
+GRU + static vs aggregate + static,gru_temporal_plus_static_logistic,aggregate_dynamic_plus_static_logistic,auroc,0.0517236732,-0.0136083323,0.1182229019,False,0.9500000000,5000,42
+GRU + static vs aggregate + static,gru_temporal_plus_static_logistic,aggregate_dynamic_plus_static_logistic,pr_auc,0.0079456739,-0.0058032400,0.0271321880,False,0.9500000000,5000,42
+GRU + static vs aggregate + static,gru_temporal_plus_static_logistic,aggregate_dynamic_plus_static_logistic,enrichment,0.2948078725,-0.2153172716,1.0066839743,False,0.9500000000,5000,42
+GRU + static vs static only,gru_temporal_plus_static_logistic,static_only_logistic,auroc,-0.0040860489,-0.0593952917,0.0501973201,False,0.9500000000,5000,42
+GRU + static vs static only,gru_temporal_plus_static_logistic,static_only_logistic,pr_auc,0.0007335572,-0.0128960473,0.0199343104,False,0.9500000000,5000,42
+GRU + static vs static only,gru_temporal_plus_static_logistic,static_only_logistic,enrichment,0.0272171292,-0.4784812859,0.7396215459,False,0.9500000000,5000,42
+GRU temporal vs static only (context),gru_temporal_logistic,static_only_logistic,auroc,0.0237428118,-0.0361930184,0.0827847018,False,0.9500000000,5000,42
+GRU temporal vs static only (context),gru_temporal_logistic,static_only_logistic,pr_auc,0.0025777137,-0.0113228626,0.0162779701,False,0.9500000000,5000,42
+GRU temporal vs static only (context),gru_temporal_logistic,static_only_logistic,enrichment,0.0956407591,-0.4201115057,0.6039605655,False,0.9500000000,5000,42

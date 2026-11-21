@@ -1,0 +1,41 @@
+{
+  "status": "PASS_RETROSPECTIVE_SENSITIVITY_ONLY",
+  "n_validation": 5046,
+  "n_positive": 136,
+  "n_negative": 4910,
+  "validation_prevalence": 0.026952041220768927,
+  "calibration_prevalence_weighted": 0.06361428129123482,
+  "calibration_prevalence_unweighted": 0.08112493239588967,
+  "calibration_prevalence_source": "stage3_1_ipcw_summary.json",
+  "ipcw_mean_predicted_probability": 0.1007458375584749,
+  "ipcw_mean_to_validation_prevalence_ratio": 3.7379668847063554,
+  "method_names": [
+    "ipcw_platt_original",
+    "uniform_20pct_risk_reduction",
+    "odds_shift_weighted_prevalence",
+    "odds_shift_unweighted_prevalence",
+    "proportional_mean_matching_stress"
+  ],
+  "scenario_names": [
+    "conservative",
+    "balanced",
+    "high_consequence"
+  ],
+  "method_descriptions": {
+    "ipcw_platt_original": "Frozen Stage 3.1 IPCW-Platt probability; no changes",
+    "uniform_20pct_risk_reduction": "Label-independent illustrative 20% downscale of all risks",
+    "odds_shift_weighted_prevalence": "Retrospective odds shift using IPCW-weighted calibration prevalence and validation prevalence",
+    "odds_shift_unweighted_prevalence": "Retrospective odds shift using raw labeled calibration prevalence and validation prevalence",
+    "proportional_mean_matching_stress": "Retrospective proportional scaling to force adjusted mean probability equal to observed validation prevalence"
+  },
+  "interpretation_warning": "RETROSPECTIVE/VALIDATION-INFORMED SENSITIVITY ONLY. Target prevalence is derived from the same validation labels used for diagnostics; adjusted calibration scores are NOT a clean held-out calibration assessment and must NOT replace the original IPCW-Platt scores. Odds adjustment assumes a label-prior-shift model which has not been validated for this dataset. All net benefits are conditional model-based expectations under illustrative cost and intervention-effect assumptions, not observed causal treatment effects or actual monetary savings.",
+  "outputs": [
+    "r1_03_probability_sensitivity.csv",
+    "r1_03_scenario_policy_sensitivity.csv",
+    "r1_03_quantile_net_benefit.csv",
+    "r1_03_decision_changes.csv",
+    "r1_03_vehicle_risks_actions.csv",
+    "r1_03_sensitivity_summary.json",
+    "r1_03_high_consequence_p90_benefit.png"
+  ]
+}

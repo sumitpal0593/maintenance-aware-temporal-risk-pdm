@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_predictions": "/mnt/data/r1_work/temporal_control_validation_predictions.csv",
+  "n_vehicles": 3850,
+  "n_positive": 114,
+  "n_negative": 3736,
+  "min_prefix_length": 20,
+  "analysis_type": "exploratory_post_hoc_length_subgroup",
+  "n_bootstrap": 5000,
+  "seed": 42,
+  "ci_method": "paired class-stratified vehicle resampling; percentile 95% intervals",
+  "note": "Confidence intervals quantify uncertainty in fixed frozen-model validation comparisons; no models retrained, selected or recalibrated."
+}

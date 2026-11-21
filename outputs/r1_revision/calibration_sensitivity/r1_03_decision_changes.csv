@@ -1,0 +1,16 @@
+method,scenario,n_changed_relative_to_original,n_abandoned_interventions,n_new_interventions
+ipcw_platt_original,conservative,0,0,0
+ipcw_platt_original,balanced,0,0,0
+ipcw_platt_original,high_consequence,0,0,0
+uniform_20pct_risk_reduction,conservative,0,0,0
+uniform_20pct_risk_reduction,balanced,144,144,0
+uniform_20pct_risk_reduction,high_consequence,585,585,0
+odds_shift_weighted_prevalence,conservative,0,0,0
+odds_shift_weighted_prevalence,balanced,173,173,0
+odds_shift_weighted_prevalence,high_consequence,991,991,0
+odds_shift_unweighted_prevalence,conservative,0,0,0
+odds_shift_unweighted_prevalence,balanced,173,173,0
+odds_shift_unweighted_prevalence,high_consequence,999,999,0
+proportional_mean_matching_stress,conservative,0,0,0
+proportional_mean_matching_stress,balanced,173,173,0
+proportional_mean_matching_stress,high_consequence,999,999,0

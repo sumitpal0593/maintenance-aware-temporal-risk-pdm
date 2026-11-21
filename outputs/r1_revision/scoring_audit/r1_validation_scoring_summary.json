@@ -1,0 +1,21 @@
+{
+  "status": "PASS_RAW_SOURCE_VALIDATED_WITH_TIME_TRUNCATION",
+  "n_vehicles": 5046,
+  "n_positive": 136,
+  "n_negative": 4910,
+  "unique_vehicle_ids": 5046,
+  "control_scoring_time_equals_raw_and_calibrated": true,
+  "frozen_gru_scores_equal_raw_proposed_scores": true,
+  "class_labels_and_binary_labels_aligned": true,
+  "prefix_length_min": 1,
+  "prefix_length_median": 34.0,
+  "prefix_length_max": 209,
+  "final_time_step_min": 19,
+  "final_time_step_max": 456,
+  "raw_operational_csv_checked": true,
+  "limitations": "Final available observations and readout counts match the raw source. Exported time-step fields are int64-truncated representations of raw time values, not exact original fractional time-step values.",
+  "raw_timestamp_mismatches_before_int64_normalization": 3991,
+  "raw_timestamp_mismatches_after_int64_normalization": 0,
+  "raw_readout_count_mismatches": 0,
+  "time_step_export_convention": "int64(raw time_step), matching load_preprocessed_sequences()"
+}

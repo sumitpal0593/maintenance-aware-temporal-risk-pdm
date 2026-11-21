@@ -1,0 +1,13 @@
+comparison,model,reference,metric,delta_estimate,ci_lower,ci_upper,ci_excludes_zero,confidence_level,n_bootstrap,seed
+GRU temporal vs aggregate dynamics,gru_temporal_logistic,aggregate_dynamic_logistic,auroc,0.0441907096,-0.0350236790,0.1230584240,False,0.9500000000,5000,42
+GRU temporal vs aggregate dynamics,gru_temporal_logistic,aggregate_dynamic_logistic,pr_auc,0.0082997972,-0.0032420977,0.0243371182,False,0.9500000000,5000,42
+GRU temporal vs aggregate dynamics,gru_temporal_logistic,aggregate_dynamic_logistic,enrichment,0.2803001692,-0.1094918970,0.8219114490,False,0.9500000000,5000,42
+GRU + static vs aggregate + static,gru_temporal_plus_static_logistic,aggregate_dynamic_plus_static_logistic,auroc,-0.0149493783,-0.0856810455,0.0554200595,False,0.9500000000,5000,42
+GRU + static vs aggregate + static,gru_temporal_plus_static_logistic,aggregate_dynamic_plus_static_logistic,pr_auc,-0.0019059593,-0.0226925300,0.0210815407,False,0.9500000000,5000,42
+GRU + static vs aggregate + static,gru_temporal_plus_static_logistic,aggregate_dynamic_plus_static_logistic,enrichment,-0.0643679222,-0.7663705312,0.7119643120,False,0.9500000000,5000,42
+GRU + static vs static only,gru_temporal_plus_static_logistic,static_only_logistic,auroc,-0.0310422067,-0.0914895141,0.0314256851,False,0.9500000000,5000,42
+GRU + static vs static only,gru_temporal_plus_static_logistic,static_only_logistic,pr_auc,0.0000119307,-0.0144024651,0.0212825067,False,0.9500000000,5000,42
+GRU + static vs static only,gru_temporal_plus_static_logistic,static_only_logistic,enrichment,0.0004029222,-0.4863990390,0.7187513230,False,0.9500000000,5000,42
+GRU temporal vs static only (context),gru_temporal_logistic,static_only_logistic,auroc,-0.0140501146,-0.0790031909,0.0537811338,False,0.9500000000,5000,42
+GRU temporal vs static only (context),gru_temporal_logistic,static_only_logistic,pr_auc,0.0008431960,-0.0139257881,0.0155391007,False,0.9500000000,5000,42
+GRU temporal vs static only (context),gru_temporal_logistic,static_only_logistic,enrichment,0.0284763564,-0.4703007385,0.5247854199,False,0.9500000000,5000,42
